@@ -1,0 +1,97 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family:"Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+}
+#container{
+	position:absolute;
+	left:0;
+	top:0;
+    overflow:hidden;
+    width:100%;
+}
+#g_header{
+	height:1.71875rem;
+	width:100%;
+	background-color:#f9fafd;
+	position:fixed;
+	left:0;
+	top:0;
+}
+#g_header>a>img{
+	width:1rem;
+	float:left;
+	margin-top:0.3rem;
+	margin-left:0.25rem;
+}
+#g_header>span{
+	display:inline-block;
+	width:5rem;
+	height:100%;
+	line-height:1.71875rem;
+	text-align:left;
+	float:left;
+	margin-left:3rem;
+	padding-left:0.1rem;
+	font-weight:700;
+	font-size:0.45rem;
+}
+#g_banner{
+	height:9.15625rem;
+	padding-top:0.375rem;
+	background-color:#FFFFFF;
+	margin-top:1.71875rem;
+	text-align: center;
+	font-weight:700;
+	color:#333333;
+}
+#g_banner>p:first-of-type{
+	height:3.75rem;
+	width:100%;
+	text-align: center;
+}
+#g_banner>p:first-of-type>img{
+	width:3.5rem;
+}
+#g_banner>p:nth-of-type(2){
+	height:0.75rem;
+	line-height:0.75rem;
+	width:100%;
+	text-align: center;
+}
+#g_banner>p:nth-of-type(3){
+	width:3.20946rem;
+	height:0.8999rem;
+	margin-top:2.5rem;
+	padding-left:1.5rem;
+	margin-left:2.5rem;
+	background-image:url(../img/about2.jpg);
+	background-size:auto 100%;
+	background-position:left center;
+	background-repeat:no-repeat;
+}
+#g_footer{
+	height:6.5rem;
+	background-color:rgb(239,239,239) !important;
+}
+
+#g_footer>p:nth-of-type(1){
+	height:0.75rem;
+	line-height:0.75rem;
+	text-align:center;
+	font-weight:700;
+	padding-top:0.5rem;
+	color:#333333;
+}
+#g_footer>p:nth-of-type(2),#g_footer>p:nth-of-type(3){
+	height:1.5rem;
+	line-height:0.75rem;
+	text-align: center;
+	color:#999999;
+	font-size:0.4rem;
+}
+#g_footer>p:nth-of-type(3){
+	margin-top:1.5rem;
+}

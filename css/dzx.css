@@ -1,0 +1,230 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family: "Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+}
+#container{
+	position:absolute;
+	left:0;
+	top:0;
+    overflow:hidden;
+    width:100%;
+}
+#d_header{
+	height:1.71875rem;
+	width:100%;
+	background-color:#f9fafd;
+	position: fixed;
+	left:0;
+	top:0;
+	z-index: 1;
+}
+#d_header>a>img{
+	width:1rem;
+	float:left;
+	margin-top:0.3rem;
+	margin-left:0.25rem;
+}
+#d_header>img:last-of-type{
+	float:right;
+	margin-right:0.3rem;
+}
+#d_header>span{
+	font-weight:bolder;
+	display:inline-block;
+	width:3.8rem;
+	height:100%;
+	line-height:1.71875rem;
+	text-align:left;
+	float:left;
+	margin-left:2rem;
+	padding-left:0.1rem;
+	font-size:0.45rem;
+	color:#333333;
+}
+#d_banner{
+	width:100%;
+	height:6.249rem;
+	margin-top:1.71875rem;
+}
+#d_banner>img{
+	width:100%;
+	height:100%;
+}
+#d_nav>ul{
+	width:100%;
+	height:0.8443rem;
+	list-style:none;
+	background-image:url(../img/d_n.jpg);
+}
+#d_nav>ul>li{
+	float:left;
+	width:33.33%;
+	height:100%;
+}
+#d_nav>ul>li:first-of-type{
+	background-image:url(../img/d_n1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position-y: -0.8rem;
+}
+#d_nav>ul>li:nth-of-type(2){
+	background-image:url(../img/d_n2.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position-y:0rem;
+}
+#d_nav>ul>li:last-of-type{
+	background-image:url(../img/d_n3.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position-y:0rem;
+}
+.d_title{
+	height:1.343125rem;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#d_title0,#d_title4{
+	background-image:url(../img/x_title.jpg);
+}
+#d_title1,#d_title5{
+	background-image:url(../img/x_title1.jpg);
+}
+#d_title2,#d_title6{
+	background-image:url(../img/x_title2.jpg);
+}
+#d_title3,#d_title7{
+	background-image:url(../img/x_title3.jpg);
+}
+.d_nav_shop{
+	list-style:none;
+	height:29.4268rem;
+	background-image:url(../img/d_n.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+}
+.d_nav_shop>li{
+	width:8.738rem;
+	height:3.932rem;
+	padding:0.2998rem;
+	border:1px solid #EEEEEE;
+	margin:0 0.2998rem 0.2998rem;
+	background-color:#fff;
+}
+.d_nav_shop>li>img{
+	width:3.932rem;
+	height:3.932rem;
+	float:left;
+}
+.d_nav_shop>li>div{
+	width:4.29593rem;
+	height:3.1875rem;
+	float:left;
+	margin-left:0.4rem;
+}
+.d_nav_shop>li>div>p{
+	height:0.75rem;
+	width:100%;
+	line-height:0.75rem;
+	color:#333333;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size:0.45rem;
+}
+.d_nav_shop>li>div>p:nth-of-type(2){
+	font-size:0.35rem;
+}
+.d_nav_shop>li>div>p:nth-of-type(3){
+	height:0.8125rem;
+	line-height:0.8125rem;
+	font-size:0.35rem;
+	font-weight:bold;
+	color:#C11328;
+}
+.d_nav_shop>li>div>p:nth-of-type(3)>span{
+	font-size:0.5rem;
+}
+.d_nav_shop>li>div>p:nth-of-type(4){
+	width:2.9378rem;
+	height:0.875rem;
+	margin:0 0.667rem;
+	border-radius:0.4rem;
+	color:white;
+	background-color: #c11328;
+	line-height:0.875rem;
+	text-align: center;
+}
+.d_part2,.d_part4{
+	height:14.74468rem;
+}
+.d_part8{
+	height:19.63875rem;
+}
+.d_part9{
+	height:24.5328rem;
+}
+.d_part10{
+	height:29.4268rem;
+}
+#d_part5{
+	height:3.327rem;
+	width:100%;
+	background-image:url(../img/d_p5.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#d_part6{
+	height:0.98375rem;
+	width:100%;
+	background-image:url(../img/d_p6.jpg);
+	background-repeat:no-repeat;
+	background-size:10rem;
+	background-position:center center;
+}
+#d_part7{
+	background-image:url(../img/d_n.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+#d_part7>ul{
+	width:7.5625rem;
+	height:9.75rem;
+	padding:0.375rem 0 1.5rem;
+	margin:0 0.9375rem 0 1.5rem;
+	list-style:outside decimal;
+}
+#d_part7>ul>li{
+	height:1.6875rem;
+	padding-top:0.1875rem;
+	font-size:0.35rem;
+	color:#333333;
+}
+#d_part7>ul>li:nth-of-type(5),#d_part7>ul>li:nth-of-type(6),#d_part7>ul>li:nth-of-type(7){
+	height:0.5625rem;
+}
+#tab3>img{
+	width:100%;
+	height:9.373rem;
+}
+#tab2,#tab3{
+	display:none;
+}
+#d_shopCra{
+	width:2.2125rem;
+	height:2.2125rem;
+	position:fixed;
+	bottom:0.3rem;
+	right:0.3rem;
+	background-image:url(../img/f_car.jpg);
+	background-repeat:no-repeat;
+	background-size: 80%;
+	background-position:center center;
+	background-color: #ffd600;
+	border-radius:50%;
+}
